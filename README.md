@@ -1,4 +1,4 @@
-# A11y-Retreat Demo Project
+# A11y-Workshop Demo Project
 
 Note! Code of this repo has some serious accessibility problems on purpose, as it is used as a demo and template for a lecture. So don't look for code examples from this repository 😁
 
@@ -20,7 +20,7 @@ After completing the steps, you should have the cloned repo on your computer. :t
 Move into the cloned repository with
 
 ```
-cd a11y-retreat-project
+cd a11y-workshop-project
 ```
 (or if you renamed the repo, use that name)
 
