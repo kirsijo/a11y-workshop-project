@@ -2,7 +2,7 @@
   --c-background-color: #00120B;
   --c-text-color: #D8E4FF;
   --c-primary-color: #35605A;
-  --c-secondary-color: #6B818C;
+  --c-secondary-color: #31454f;
   --c-tertiary-color: #31E981;
 }
 
@@ -23,6 +23,7 @@ body {
 .button, button {
   background-color: var(--c-secondary-color);
   border: 0.15rem solid var(--c-text-color);
+  color: var(--c-text-color);
   padding: 0.25rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
@@ -42,7 +43,7 @@ body {
 }
 
 .error {
-  background-color: var(--c-secondary-color);
+  background-color: var(--c-text-color);
   padding: 1rem;
   margin: 0.5rem 0;
 }
