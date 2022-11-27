@@ -13,7 +13,7 @@ const Input = ({ label, value, handleOnChange }: InputProps) => {
         <span>{label}</span>
       </div>
       <div>
-        <input value={value} onChange={handleOnChange} />
+        <input aria-label="input for postal code" value={value} onChange={handleOnChange} />
       </div>
     </>
   )
