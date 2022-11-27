@@ -24,9 +24,10 @@ body {
   background-color: var(--c-secondary-color);
   border: 0.15rem solid var(--c-text-color);
   color: var(--c-text-color);
-  padding: 0.25rem;
+  padding: 0.45rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
+  font-size: 18px;
 }
 
 .submit-button {
@@ -43,7 +44,7 @@ body {
 }
 
 .error {
-  background-color: var(--c-text-color);
+  background-color: var(--c-secondary-color);
   padding: 1rem;
   margin: 0.5rem 0;
 }
