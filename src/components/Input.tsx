@@ -10,10 +10,10 @@ const Input = ({ label, value, handleOnChange }: InputProps) => {
   return (
     <>
       <div>
-        <span>{label}</span>
+        <label htmlFor="postal-code">{label}</label>
       </div>
       <div>
-        <input aria-label="input for postal code" value={value} onChange={handleOnChange} />
+        <input id="postal-code" value={value} onChange={handleOnChange} />
       </div>
     </>
   )
